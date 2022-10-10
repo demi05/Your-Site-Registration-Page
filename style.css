@@ -69,7 +69,8 @@ select{
     border-left: 2px solid firebrick;
 }
 #fav-color{
-    margin-top: 1em;
+    margin: 1em 0 0 1em;
+    width: 20%;
 }
 #check{
     justify-self: flex-start;
