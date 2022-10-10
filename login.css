@@ -108,7 +108,7 @@ i{
 @media (max-width: 750px){
     main{
         display: block;
-        width: 100%;
+        width: 90%;
         max-width: 450px;
         margin-top: 3em;
     }
@@ -119,6 +119,6 @@ i{
         justify-content: center;
     }
     form{
-        margin-top: 3em;
+        margin: 3em 0;
     }
 }
