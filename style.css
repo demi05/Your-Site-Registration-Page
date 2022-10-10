@@ -12,14 +12,20 @@ html{
 body{
     background-image: linear-gradient(to left, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
     font-family: "Lato", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
 }
 main{
     width: 70%;
-    margin: 5% auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 5em;
     align-items: center;
+    justify-content: center;
+    padding: 5em;
 }
 .main-text{
     margin: 0 auto;
@@ -124,14 +130,27 @@ i{
         margin: 0 auto;
         border-radius: 0.75rem;
         place-items: center;
-        /* min-height: 50vh; */
     }
 }
 
 @media (max-width: 750px){
+    body{
+        display: unset;
+        align-items: unset;
+    }
     main{
         display: block;
-        width: 90%;
-        max-width: 450px;
+        width: 100%;
+        margin: unset;
+
+    }
+    form{
+        width: 100%;
+    }
+    .main-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
     }
 }
