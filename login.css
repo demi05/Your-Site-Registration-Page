@@ -15,7 +15,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    align-items: center;
+    justify-content: center;
 }
 main{
     width: 70%;
@@ -30,7 +30,6 @@ main{
 }
 h2{
     font-weight: 700;
-    min-height: 100vh;
 }
 form{
     background-color: #fff;
@@ -97,6 +96,10 @@ i{
 }
 
 @media (min-width: 750px) and (max-width: 1000px){
+    body{
+        min-height: 100vh;
+        align-items: center;
+    }
     main{
         width: 90%;
     }
