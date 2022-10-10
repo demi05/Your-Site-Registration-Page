@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/0ccf69e2e1.js" crossorigin="anonymous"></script>
+    <title>Your Site | Login</title>
+</head>
+<body>
+    <main>
+        <header id="head">
+            <h2>Sign in to continue access</h2>
+        </header>
+        <form action="/submit-url">
+            <h3>LOG IN</h3>
+            <section class="main-form">
+            <label for="email-add"> <input type="email" name="email-add"  id="email-add" placeholder="Your Email" required pattern="[a-z 0-9 .com]"></label>
+            <label for="pwd"><input type="password" name="pwd"  id="pwd" placeholder="Password" required pattern="[a-z 0-5] {8}"></label>
+            <label for="cfm-pwd"><input type="password" name="cfm-pwd"  id="cfm-pwd" placeholder="Repeat password" required pattern="[a-z 0-5] {8}"></label>
+            <button><a href="success.html" class="a-1">Log In</a></button>
+            <p>Don't have an Account? <a href="index.html">Sign Up</a></p>
+        </section>
+        </form>
+    </main>
+    <footer>
+        <p> Copyright | demi05| 2022</p>
+         <!-- add social icons -->
+         <span><a href="https://twitter.com/toniiaa___?s=09"><i class="fa-brands fa-twitter"></i></a></span>
+         <span><a href="https://github.com/demi05"><i class="fa-brands fa-github"></i></a> </span>
+         <span><a href="https://www.linkedin.com/in/leshi-demilade-74429223a/"><i class="fa-brands fa-linkedin-in"></i></a> </span>
+     </footer>
+</body>
+</html>

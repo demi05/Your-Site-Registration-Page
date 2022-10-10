@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: linear-gradient(to right, #800080 0%, #DA70D6 50%, #CCCCFF 100%);
+    font-family: "Lato", sans-serif;
+}
+main{
+    width: 70%;
+    max-width: 900px;
+    margin: 5% auto;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+#head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h2{
+    font-weight: 700;
+}
+form{
+    background-color: #fff;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+}
+h3{
+    text-align: center;
+    font-weight: 700;
+}
+.main-form{
+    margin-top: 2.5em;
+}
+label{
+    display: block;
+    margin-bottom: 2.5em;
+}
+input{
+    width: 100%;
+    text-align: right;
+    padding: 1em 2em;
+    border: none;
+    border-bottom: 2px solid firebrick;
+}
+button{
+    display: flex;
+    /* align-items: center; */
+    margin: 5em 0 5em auto;
+    padding: 0.75em 2em;
+    width: 50%;
+    text-align: right;
+    border: none;
+    border-radius: 1rem; transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    background-image: linear-gradient(to right, #800080 0%, #DA70D6 50%, #CCCCFF 100%);
+  }
+  button:hover{
+      background-position: center right;
+      cursor: pointer;
+  }
+  .a-1{
+    text-decoration: none;
+    color: #fff;
+  }
+form p{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 0.9rem;
+}
+i{
+    font-size: 1.3rem;
+}
+.fa-brands{
+    padding: 1em;
+    color: #000;
+}
+.fa-brands:hover{
+    color: #C3B1E1;
+}
+
+@media (min-width: 750px) and (max-width: 1000px){
+    main{
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px){
+    main{
+        display: block;
+        width: 90%;
+        max-width: 450px;
+        margin-top: 3em;
+    }
+    form{
+        margin-top: 3em;
+    }
+}
