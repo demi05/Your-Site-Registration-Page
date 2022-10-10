@@ -118,6 +118,16 @@ i{
     main{
         width: 90%;
     }
+    form{
+        background-color: #fff;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        border-radius: 0.75rem;
+        justify-content: center;
+        min-height: 50vh;
+    }
 }
 
 @media (max-width: 750px){
