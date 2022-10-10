@@ -19,13 +19,10 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     gap: 5em;
+    align-items: center;
 }
 .main-text{
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
-    place-content: center;
-    min-height: 100vh;
     text-align: center;
     color: #fff;
 }
@@ -126,8 +123,8 @@ i{
         flex-direction: column;
         margin: 0 auto;
         border-radius: 0.75rem;
-        justify-content: center;
-        min-height: 50vh;
+        place-items: center;
+        /* min-height: 50vh; */
     }
 }
 
